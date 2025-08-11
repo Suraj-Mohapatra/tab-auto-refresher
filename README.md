@@ -41,8 +41,3 @@ This extension uses:
 - Manifest V3 with a service worker as the background script.
 - Chrome Storage API to persist active tabs.
 - Messaging between popup and service worker for tab refresh control.
-
----
-
-## File structure
-
