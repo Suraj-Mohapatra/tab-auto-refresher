@@ -1,10 +1,8 @@
 # Tab Auto Refresher  
 
-Write a good README for this repo. I am very bad at it. I have generated this bullshit readme using copilot
+a lightweight extension that allows you to automatically refresh selected browser tabs at custom intervals. Ideal for monitoring live updates on dashboards, news sites, stock tickers, or any frequently changing webpage.  
 
-a lightweight extension that allows you to automatically refresh selected browser tabs at custom intervals. Ideal for monitoring live updates on dashboards, news sites, stock tickers, or any frequently changing webpage.
-
----
+Hey devs, do me a favor—besides fixing the grammar, please write a good README for this project. I totally suck at writing them.
 
 ## Features
 
@@ -14,8 +12,6 @@ a lightweight extension that allows you to automatically refresh selected browse
 - Remembers active tabs using Chrome's storage API
 - Lightweight and easy to use
 
----
-
 ## Installation
 
 1. Clone or download this repository.
@@ -24,8 +20,6 @@ a lightweight extension that allows you to automatically refresh selected browse
 4. Click **Load unpacked** and select the extension folder.
 5. The extension will now appear in your toolbar.
 
----
-
 ## Usage
 
 1. Click the extension icon to open the popup.
@@ -33,8 +27,6 @@ a lightweight extension that allows you to automatically refresh selected browse
 3. Enter the desired refresh interval in seconds.
 4. Click **Start** to begin auto-refreshing the selected tab.
 5. Click **Stop** to stop auto-refreshing that tab.
-
----
 
 ## Development
 
