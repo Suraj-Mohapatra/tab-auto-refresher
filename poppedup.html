@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Auto Refresher</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./refresher.js" defer></script>
+  <script src="./interval-input.js" defer></script>
+  <script src="./custom-dropdown.js" defer></script>
+  <script src="./custom-alert.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <h3>Tab Auto Refresher</h3>
+
+    <label for="customDropdown">Select Tab:</label>
+    <div id="customDropdown" class="custom-dropdown">
+      <div class="custom-dropdown-selected">Select a tab</div>
+      <div class="custom-dropdown-list" style="display:none;"></div>
+    </div>
+
+    <label for="interval">Interval (seconds):</label>
+    <input type="text" id="interval" value="10" inputmode="numeric" pattern="[0-9]*" maxlength="5">
+
+    <div class="btn-group">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+  </div>
+</body>
+
+</html>
