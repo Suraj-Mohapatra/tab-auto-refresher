@@ -1,4 +1,6 @@
-# Tab Auto Refresher
+# Tab Auto Refresher  
+
+Write a good README for this repo. I am very bad at it
 
 a lightweight extension that allows you to automatically refresh selected browser tabs at custom intervals. Ideal for monitoring live updates on dashboards, news sites, stock tickers, or any frequently changing webpage.
 
