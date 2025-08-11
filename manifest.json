@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Auto Refresher",
+    "version": "1.0.0",
+    "description": "Refreshes selected tabs at custom intervals.",
+    "permissions": [
+        "tabs",
+        "storage",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "poppedup.html",
+        "default_icon": "icon-ai-gen.png"
+    },
+    "homepage_url": "https://github.com/Suraj-Mohapatra/tab-auto-refresher"
+}

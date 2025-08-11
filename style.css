@@ -1,0 +1,194 @@
+/* Custom Alert Box Styles */
+.custom-alert-box {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  color: #218838;
+  border: 1.5px solid #28a745;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(40, 167, 69, 0.10);
+  padding: 14px 40px 14px 18px;
+  font-size: 1rem;
+  z-index: 1000;
+  min-width: 180px;
+  max-width: 90vw;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  opacity: 0.96;
+  backdrop-filter: blur(2px);
+  font-weight: 500;
+}
+
+.custom-alert-close {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  font-size: 1.2rem;
+  color: #28a745;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.custom-alert-close:hover {
+  color: #155724;
+}
+
+/* Custom Dropdown Styles */
+.custom-dropdown {
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.custom-dropdown-selected {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: border-color 0.2s;
+}
+
+.custom-dropdown-list {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-height: 120px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.custom-dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.custom-dropdown-item:hover {
+  background: #f0e6f6;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  width: 320px;
+  height: 420px;
+  min-height: 420px;
+  padding: 24px 18px 18px 18px;
+  margin: 0;
+  background: #f8f9fa;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 22px 18px 18px 18px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+label {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  display: block;
+  color: #555;
+}
+
+select,
+input {
+  margin-top: 5px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+select:focus,
+input:focus {
+  border-color: #48db03;
+  outline: none;
+}
+
+/* Custom dropdown style for select element */
+select {
+  max-width: 100%;
+  min-width: 0;
+  max-height: 120px;
+  overflow-x: auto;
+  overflow-y: auto;
+  display: block;
+}
+
+/* For Chrome, Edge, Safari: style the dropdown list */
+select[multiple],
+select[size] {
+  max-width: 100%;
+  min-width: 0;
+  max-height: 120px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  transition: background 0.2s, transform 0.1s cubic-bezier(.4, 0, .2, 1);
+}
+
+button:active {
+  transform: scale(0.92);
+}
+
+#start {
+  background: #28a745;
+}
+
+#start:hover {
+  background: #1d7730;
+}
+
+#stop {
+  background: #dc3545;
+}
+
+#stop:hover {
+  background: #ad1f2d;
+}
